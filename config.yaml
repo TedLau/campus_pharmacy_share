@@ -1,0 +1,18 @@
+app:
+  name: campus_pharmacy_share
+  port: 8081
+
+database:
+  host: localhost
+  port: 3306
+  user: college
+  password: tedlau
+  dbname: campus_pharmacy_share
+  charset: utf8mb4
+  parseTime: true
+  maxIdleConns: 10
+  maxOpenConns: 100
+
+jwt:
+  secret: tedlau
+  exp: 86400
